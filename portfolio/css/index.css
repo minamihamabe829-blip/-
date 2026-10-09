@@ -1,0 +1,9 @@
+body{
+    background-color: #dff208;
+    z-index: -1;
+    border:14px solid #ff0000;
+    max-width: 1000px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    position: relative;
+}

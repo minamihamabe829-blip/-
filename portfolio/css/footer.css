@@ -1,0 +1,40 @@
+footer{
+    border:10px solid #ff0000;
+    z-index: 1;
+    margin: 10px;
+    padding: 30px;
+    background-color: #05ffea;
+}
+
+.social-link {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: none;
+}
+
+.social-link img {
+    width: 46px;
+    height: auto;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+.option {
+    font-size: clamp(24px, 5vw, 50px);
+    font-weight: bold;
+    text-align: center;
+    font-family: "MS 明朝", sans-serif;
+    color: #ff0000;
+    -webkit-text-stroke: 5px #ffffff; /* 枠線の太さと色 */
+    paint-order: stroke fill; /* 枠線を背景側に描画 */
+}
+
+.social-link:hover .option {
+    color: #ffffff;
+    -webkit-text-stroke-color: #ff0000;
+}

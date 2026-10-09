@@ -1,0 +1,36 @@
+header{
+    border:10px solid #cc0000;
+    z-index: 1;
+    margin: 10px;
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+#header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#header-left {
+    display: flex;
+    align-items: center;
+}
+
+#header-left img {
+    width: min(100vw, 300px);
+    height: auto;
+}
+
+.grade-badge {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    z-index: 2;
+}
+
+.grade-badge img {
+    display: block;
+    width: clamp(128px, 12vw, 240px);
+    height: auto;
+}

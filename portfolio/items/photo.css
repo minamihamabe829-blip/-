@@ -1,0 +1,33 @@
+.photo {
+    display: flex;/* 画像を横並びに表示 */
+    flex-wrap: wrap;/* 画像を折り返して表示 */
+    justify-content: center;/* 画像を中央揃えにする */
+    gap: 16px;/* 画像の間隔を16pxにする */
+    width: min(100%, 1200px);
+    margin: 50px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.photo img {
+    display: block;
+    width: min(100%, 240px);
+    height: auto;
+    object-fit: contain;
+    flex: 1 1 320px;
+    margin: 0 auto;
+    border: 5px solid #cc0000;
+    background-color: #ffffff;
+}
+
+@media (max-width: 200px) {
+    .photo {
+        gap: 12px;
+        padding: 0 8px;
+    }
+
+    .photo img {
+        width: 100%;
+        flex-basis: 100%;
+    }
+}

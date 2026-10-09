@@ -1,0 +1,11 @@
+.scatter {
+    position: fixed;
+    z-index: 3;
+    transition: none;
+}
+
+.scatter img {
+    display: block;
+    width: min(25vw, 190px);
+    height: auto;
+}
